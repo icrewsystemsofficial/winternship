@@ -30,6 +30,8 @@ Route::get('/', 'PagesController@index');
 
 Route::get('/page-two', 'PagesController@PageTwo');
 
+Route::get('/page-three', 'PagesController@PageThree');
+
 
 Auth::routes();
 

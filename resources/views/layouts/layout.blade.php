@@ -24,11 +24,14 @@
         <div class="navbar-collapse offcanvas-collapse" id="navbar_main">
           <ul class="navbar-nav ml-auto align-items-lg-center">
             <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Menu</h6>
-            <li class="nav-item active">
-              <a class="nav-link" href="{{ url('/') }}">Index</a>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url('/') }}">Page 1</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url('/page-two') }}">Page 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url('/page-three') }}">Page 3</a>
             </li>
             <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbar_main_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
